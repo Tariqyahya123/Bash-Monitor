@@ -24,19 +24,19 @@ json_body="{
       \"format\": \"strict_date_optional_time\"
     },
     {
-      \"field\": \"jsonfields.billInfo.lastInvoiceDate\",
+      \"field\": \"jsonfields\",
       \"format\": \"strict_date_optional_time\"
     },
     {
-      \"field\": \"jsonfields.dateOfBirth\",
+      \"field\": \"jsonfields\",
       \"format\": \"strict_date_optional_time\"
     },
     {
-      \"field\": \"jsonfields.paymentResponse.lastInvoiceDate\",
+      \"field\": \"jsonfields\",
       \"format\": \"strict_date_optional_time\"
     },
     {
-      \"field\": \"jsonfields.responseTimestamp\",
+      \"field\": \"jsonfields\",
       \"format\": \"strict_date_optional_time\"
     }
   ],
