@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer for monitor service script
+Requires=monitor.service
+
+[Timer]
+Unit=monitor.service
+OnCalendar=*-*-* 6..23:*:00
+OnCalendar=*-*-* 0..1:*:00
+
+[Install]
+WantedBy=timers.target

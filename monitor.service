@@ -1,0 +1,16 @@
+[Unit]
+Description=Monitor
+Wants=your_app.service
+[Service]
+
+User=your_user
+Group=your_group
+
+
+
+ExecStart=/path/to/script/monitor.sh
+
+
+[Install]
+WantedBy=multi-user.target
+
